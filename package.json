@@ -1,0 +1,20 @@
+{
+  "name": "node-docker",
+  "version": "1.0.0",
+  "description": "Node Docker",
+  "main": "src/index.js",
+  "author": "Mutai Mwiti",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon --exec babel-node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "nodemon": "^1.19.3"
+  }
+}
