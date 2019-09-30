@@ -63,3 +63,6 @@ typings/
 # editors
 .idea/
 .vscode/
+
+# app build
+dist/
